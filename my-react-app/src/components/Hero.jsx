@@ -1,11 +1,14 @@
 import 'react';
+import './Hero.css';
 
 const Hero = () => {
   return (
-    <section className="h-screen bg-cover bg-center text-white" style={{ backgroundImage: "url('/path-to-image.jpg')" }}>
-      <div className="h-full flex flex-col justify-center items-center">
-        <h1 className="text-5xl mb-4">Hi, I&apos;m [Your Name]</h1>
-        <p className="text-2xl">A Frontend Developer</p>
+    <section className="box">
+      <div className="content">
+        <img src="./src/pictures/computerimage.jpg" alt="Computer" className="w-1/2 mb-4" />
+        <h1 className="text-5xl mb-4">Front End Developer</h1>
+        <p className="text-2xl">&quot;Great web design without functionality is like a sports car with no engine. &quot;
+        – Paul Cookson</p>
       </div>
     </section>
   );
