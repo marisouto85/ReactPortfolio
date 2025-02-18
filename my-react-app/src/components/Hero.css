@@ -19,7 +19,7 @@
 }
 
 .content img {
-    width: 57.5%; /* Make the image smaller */
+    width: 38.5%; /* Make the image smaller */
     margin-bottom: 1rem;
 }
 
@@ -31,7 +31,7 @@
 .content p {
     font-size: 1.5rem;
     /*max-width: 600px;*/
-    margin: 0 auto;
+    margin-bottom: 15rem;
     padding: 0 1rem;
     line-height: 1.6;
 }
