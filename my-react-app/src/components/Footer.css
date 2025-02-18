@@ -1,7 +1,7 @@
 .footer {
     background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,237,0.7231267507002801) 50%, rgba(252,176,69,1) 100%);
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    padding: 15px;
+    padding: 2px;
     text-align: center;
 }
 
@@ -22,7 +22,7 @@
 .social-icon {
     color: white;
     margin: 0 15px;
-    font-size: 5rem;
+    font-size: 3rem;
     text-decoration: none;
     transition: color 0.3s;
 }
