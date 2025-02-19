@@ -4,11 +4,16 @@ import './Hero.css';
 const Hero = () => {
   return (
     <section className="box">
+      <video className="background-video" autoPlay loop muted>
+        <source src="./src/pictures/videoframe_292.png" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
       <div className="content">
-        <img src="./src/pictures/computerimage.jpg" alt="Computer" className="w-1/2 mb-4" />
-        <h1 className="text-5xl mb-4">Front End Developer</h1>
-        <p className="text-2xl">&quot;Great web design without functionality is like a sports car with no engine. &quot;
-        – Paul Cookson</p>
+        <h1 className="text-5xl mb-4">Hi, there... I am a Front End Developer</h1>
+        <p className="text-2xl">
+          &quot;Great web design without functionality is like a sports car with no engine.&quot;
+          – Paul Cookson
+        </p>
       </div>
     </section>
   );

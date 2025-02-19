@@ -1,13 +1,23 @@
+/* Add the bounce animation */
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+}
+
 .box {
     height: 100vh;
-    background-size:contain;
-    background-position: center;
-    color: rgb(20, 19, 19);
+    background-image: url('./src/pictures/videoframe_292.png'); /* Set the image as background */
+    background-size: cover; /* Make sure the background covers the entire section */
+    background-position: center; /* Center the background */
+    color: white;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    
 }
 
 .content {
@@ -16,22 +26,19 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-}
-
-.content img {
-    width: 38.5%; /* Make the image smaller */
-    margin-bottom: 1rem;
+    z-index: 2; /* Ensure content is above the background */
 }
 
 .content h1 {
     font-size: 3rem;
     margin-bottom: 1rem;
+    color: white;
 }
 
 .content p {
     font-size: 1.5rem;
-    /*max-width: 600px;*/
     margin-bottom: 15rem;
     padding: 0 1rem;
     line-height: 1.6;
+    color: white;
 }
